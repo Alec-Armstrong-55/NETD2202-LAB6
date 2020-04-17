@@ -1,0 +1,225 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NETD2202LAB6
+</name>
+</assembly>
+<members>
+<member name="T:NETD2202LAB6.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.AverageUnitsShipped">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.CarInventory">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.Cut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.NewFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.OpenFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.Paste">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.SaveFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NETD2202LAB6.My.Resources.Resources.TextEditor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="F:NETD2202LAB6.CarObjectClass.carCount">
+ <summary>
+ Variables for the class.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.CarObjectClass.#ctor">
+ <summary>
+ Non-parameterized constructor for the class.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.CarObjectClass.#ctor(System.String,System.String,System.Int32,System.Decimal,System.Boolean)">
+ <summary>
+ Parameterized constructor for the class.
+ </summary>
+ <param name="makeValue"> A cars manufacturer</param>
+ <param name="modelValue"> A cars model</param>
+ <param name="yearValue"> A cars year of manufacturing</param>
+ <param name="priceValue"> A cars current value</param>
+ <param name="newValue"> If the car is new or not</param>
+</member>
+<member name="P:NETD2202LAB6.CarObjectClass.Count">
+ <summary>
+ Accessor that returns the car count.
+ </summary>
+ <returns> The car count. </returns>
+</member>
+<member name="P:NETD2202LAB6.CarObjectClass.Id">
+ <summary>
+ Accessor that returns the car id.
+ </summary>
+ <returns> The cars id. </returns>
+</member>
+<member name="P:NETD2202LAB6.CarObjectClass.Make">
+ <summary>
+ Function to return or change the cars make.
+ </summary>
+ <returns> The car make. </returns>
+</member>
+<member name="P:NETD2202LAB6.CarObjectClass.Model">
+ <summary>
+ Function to return or change the cars model.
+ </summary>
+ <returns> The car model. </returns>
+</member>
+<member name="P:NETD2202LAB6.CarObjectClass.Year">
+ <summary>
+ Function to return or change the cars year.
+ </summary>
+ <returns> The car year. </returns>
+</member>
+<member name="P:NETD2202LAB6.CarObjectClass.Price">
+ <summary>
+ Function to return or change the cars price.
+ </summary>
+ <returns> The car price. </returns>
+</member>
+<member name="P:NETD2202LAB6.CarObjectClass.IsNew">
+ <summary>
+ Function to return or change the cars new state.
+ </summary>
+ <returns> The car new state. </returns>
+</member>
+<member name="M:NETD2202LAB6.CarObjectClass.GetCarData">
+ <summary>
+ Function to return the car class' tostring.
+ </summary>
+ <returns> A tostring. </returns>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.frmArmstrongEditor_Load(System.Object,System.EventArgs)">
+ <summary>
+ When the application is opened, set to defaults.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.FileNew">
+ <summary>
+ Opens a new file after checking if the user wants to save the current file, setting to defaults.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.FileOpen">
+ <summary>
+ Opens a previously created text document.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.FileSave">
+ <summary>
+ Saves the document currently open or calls upon the save as option.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.FileSaveAs">
+ <summary>
+ Saves the document currently open to the specified locationin memory.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.FileClose">
+ <summary>
+ Exit the application.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.EditCopy">
+ <summary>
+ Copy the selected text.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.EditCut">
+ <summary>
+ Cuts the selected text.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.EditPaste">
+ <summary>
+ Pastes the clipboard.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.HelpAbout">
+ <summary>
+ Displays info on the form.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.SetDefaults">
+ <summary>
+ Set the defaults of the form.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.SaveTextFile(System.String)">
+ <summary>
+ Saves the file that is passed into it.
+ </summary>
+ <param name="path">A full file path as a string</param>
+</member>
+<member name="M:NETD2202LAB6.frmArmstrongEditor.UpdateFormTitle">
+ <summary>
+ Updates the form's title text to include the open file path.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmAverageUnitsShipped.EditCopy">
+ <summary>
+ Copy the selected text.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmAverageUnitsShipped.EditPaste">
+ <summary>
+ Pastes the clipboard.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmCarInventory.EditCopy">
+ <summary>
+ Copy the selected text.
+ </summary>
+</member>
+<member name="M:NETD2202LAB6.frmCarInventory.EditPaste">
+ <summary>
+ Pastes the clipboard.
+ </summary>
+</member>
+</members>
+</doc>
